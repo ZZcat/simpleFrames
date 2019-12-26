@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cats are the best!</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>function get_full_url(url_path)
+{
+    var loc = window.location;
+    var url = "" + loc.protocol + "//" + loc.host + url_path;
+    return url;
+}
+
+function refresh_page_absolute(url_path)
+{
+    window.location.href = get_full_url(url_path)
+}</script>
+
+</script>
+
+  </head>
+  <body>
+
+
+  <div class="main">
+    <input type="text" size="30" id="sitebox">
+    <button onclick="wizard()" id="sitebutton">Run</button> 
+    <script src="main.js"></script>
+
+  </div>
+
+
+    
+  </body>
+</html>

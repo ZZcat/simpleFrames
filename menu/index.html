@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cats are the best!</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>setTimeout(function() { window.location.href = '/logout' }, 20000); //Auto-logout 20 sec.</script>
+
+  </head>
+  <body>
+
+  <h1>
+    <center>Menu</center>
+    <input TYPE="button" VALUE="Logout" style="position: absolute; top: 0; right: 0; background-color: #ff1234; font-size: 30px; width: 200px; height: 50px" onclick="window.location.href='/logout'">
+  </h1>
+
+  <h2>Main Options</h2>
+  <button onclick="window.location.href = '/quadratics';">Mode 1</button>
+
+  <h2>Other options</h2>
+  <a>Chrome Inspect Element (wait a few minutes under "other"... takes a bit to load): chrome://inspect/#other</a>
+
+  <h2>Quick Links<h2>
+  <input type="button" value="Google.com" onclick="window.open('https://google.com','_parent','resizable=yes')" />
+  <input type="button" value="Gmail" onclick="window.open('https://gmail.com','_parent','resizable=yes')" />
+  <input type="button" value="Blocked Page" onclick="window.open('http://blocked.com-default.ws/','_parent','resizable=yes')" />
+  <input type="button" value="Matrix" onclick="window.open('/constant/matrix.html','_parent','resizable=yes')" />
+  <input type="button" value="Boring inf scroller" onclick="window.open('/infscroll.html','_parent','resizable=yes')" />
+
+  </body>
+</html>
+
