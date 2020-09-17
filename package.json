@@ -15,7 +15,7 @@
     "express-session": "^1.17.0",
     "forge": "^2.3.0",
     "morgan": "^1.9.1",
-    "node-forge": "^0.9.1",
+    "node-forge": "^0.10.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "random-prime": "^1.0.0",
